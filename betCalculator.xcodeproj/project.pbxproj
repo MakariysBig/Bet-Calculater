@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E8CD8AAF9BDE1136C6D070 /* libPods-betCalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59D055A53E5471D847482AC /* libPods-betCalculator.a */; };
+		AB3D81E02911163200670B7A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81DF2911163200670B7A /* TabBarViewController.swift */; };
+		AB3D81E62911192400670B7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81E52911192400670B7A /* MainViewController.swift */; };
+		AB3D81E82911193200670B7A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81E72911193200670B7A /* HistoryViewController.swift */; };
+		AB3D81EA2911225B00670B7A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81E92911225B00670B7A /* MainView.swift */; };
+		AB3D81EC2911226C00670B7A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81EB2911226C00670B7A /* HistoryView.swift */; };
+		AB3D81EF29114B9200670B7A /* HistoryCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81EE29114B9200670B7A /* HistoryCustomCell.swift */; };
+		AB3D81F1291182A700670B7A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81F0291182A700670B7A /* UIColor+Extension.swift */; };
+		AB3D81F42911850C00670B7A /* MainCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81F32911850C00670B7A /* MainCustomCell.swift */; };
+		AB3D81F62914153600670B7A /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81F52914153600670B7A /* CurrencyViewController.swift */; };
+		AB3D81F8291415FE00670B7A /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D81F7291415FE00670B7A /* CurrencyView.swift */; };
+		AB5380842917E47D00FB2B23 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5380832917E47D00FB2B23 /* NewView.swift */; };
+		AB5380882918334100FB2B23 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5380872918334100FB2B23 /* NewViewController.swift */; };
+		AB7902DB290EFDE600522E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7902DA290EFDE600522E92 /* AppDelegate.swift */; };
+		AB7902DD290EFDE600522E92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7902DC290EFDE600522E92 /* SceneDelegate.swift */; };
+		AB7902DF290EFDE600522E92 /* NewBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7902DE290EFDE600522E92 /* NewBetViewController.swift */; };
+		AB7902E4290EFDE800522E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7902E3290EFDE800522E92 /* Assets.xcassets */; };
+		AB7902E7290EFDE800522E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7902E5290EFDE800522E92 /* LaunchScreen.storyboard */; };
+		AB7902EF290EFF9300522E92 /* NewBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7902EE290EFF9300522E92 /* NewBetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		656BDB729EDFD840AC48890A /* Pods-betCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-betCalculator.release.xcconfig"; path = "Target Support Files/Pods-betCalculator/Pods-betCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		7DF350F9C1ABA2141DB0FEF9 /* Pods-betCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-betCalculator.debug.xcconfig"; path = "Target Support Files/Pods-betCalculator/Pods-betCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3D81DF2911163200670B7A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AB3D81E52911192400670B7A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AB3D81E72911193200670B7A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AB3D81E92911225B00670B7A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AB3D81EB2911226C00670B7A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AB3D81EE29114B9200670B7A /* HistoryCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCustomCell.swift; sourceTree = "<group>"; };
+		AB3D81F0291182A700670B7A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AB3D81F32911850C00670B7A /* MainCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCustomCell.swift; sourceTree = "<group>"; };
+		AB3D81F52914153600670B7A /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		AB3D81F7291415FE00670B7A /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		AB5380832917E47D00FB2B23 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		AB5380872918334100FB2B23 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		AB7902D7290EFDE600522E92 /* betCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7902DA290EFDE600522E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB7902DC290EFDE600522E92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB7902DE290EFDE600522E92 /* NewBetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBetViewController.swift; sourceTree = "<group>"; };
+		AB7902E3290EFDE800522E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7902E6290EFDE800522E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7902E8290EFDE800522E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7902EE290EFF9300522E92 /* NewBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBetView.swift; sourceTree = "<group>"; };
+		F59D055A53E5471D847482AC /* libPods-betCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-betCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7902D4290EFDE600522E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E8CD8AAF9BDE1136C6D070 /* libPods-betCalculator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADB87962E9BC71C28C404E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DF350F9C1ABA2141DB0FEF9 /* Pods-betCalculator.debug.xcconfig */,
+				656BDB729EDFD840AC48890A /* Pods-betCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B9179F8DB71D3DC5AE90631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F59D055A53E5471D847482AC /* libPods-betCalculator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3D81E12911168C00670B7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D81DF2911163200670B7A /* TabBarViewController.swift */,
+				AB7902DE290EFDE600522E92 /* NewBetViewController.swift */,
+				AB3D81E52911192400670B7A /* MainViewController.swift */,
+				AB3D81E72911193200670B7A /* HistoryViewController.swift */,
+				AB3D81F52914153600670B7A /* CurrencyViewController.swift */,
+				AB5380872918334100FB2B23 /* NewViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB3D81E22911169D00670B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB7902EE290EFF9300522E92 /* NewBetView.swift */,
+				AB3D81E92911225B00670B7A /* MainView.swift */,
+				AB3D81EB2911226C00670B7A /* HistoryView.swift */,
+				AB3D81F7291415FE00670B7A /* CurrencyView.swift */,
+				AB5380832917E47D00FB2B23 /* NewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB3D81E3291116A900670B7A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AB7902DA290EFDE600522E92 /* AppDelegate.swift */,
+				AB7902DC290EFDE600522E92 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AB3D81E4291116C500670B7A /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB7902E3290EFDE800522E92 /* Assets.xcassets */,
+				AB7902E5290EFDE800522E92 /* LaunchScreen.storyboard */,
+				AB7902E8290EFDE800522E92 /* Info.plist */,
+			);
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
+		AB3D81ED29114B7900670B7A /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D81EE29114B9200670B7A /* HistoryCustomCell.swift */,
+				AB3D81F32911850C00670B7A /* MainCustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		AB3D81F2291182B000670B7A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D81F0291182A700670B7A /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB7902CE290EFDE600522E92 = {
+			isa = PBXGroup;
+			children = (
+				AB7902D9290EFDE600522E92 /* betCalculator */,
+				AB7902D8290EFDE600522E92 /* Products */,
+				3ADB87962E9BC71C28C404E8 /* Pods */,
+				4B9179F8DB71D3DC5AE90631 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7902D8290EFDE600522E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7902D7290EFDE600522E92 /* betCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7902D9290EFDE600522E92 /* betCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D81E3291116A900670B7A /* Delegate */,
+				AB3D81ED29114B7900670B7A /* CustomCell */,
+				AB3D81E22911169D00670B7A /* View */,
+				AB3D81E12911168C00670B7A /* ViewController */,
+				AB3D81E4291116C500670B7A /* SuportingFiles */,
+				AB3D81F2291182B000670B7A /* Extension */,
+			);
+			path = betCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7902D6290EFDE600522E92 /* betCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7902EB290EFDE800522E92 /* Build configuration list for PBXNativeTarget "betCalculator" */;
+			buildPhases = (
+				8CBE5B8B1AB0EF6A701A02FC /* [CP] Check Pods Manifest.lock */,
+				AB7902D3290EFDE600522E92 /* Sources */,
+				AB7902D4290EFDE600522E92 /* Frameworks */,
+				AB7902D5290EFDE600522E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betCalculator;
+			productName = betCalculator;
+			productReference = AB7902D7290EFDE600522E92 /* betCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7902CF290EFDE600522E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AB7902D6290EFDE600522E92 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AB7902D2290EFDE600522E92 /* Build configuration list for PBXProject "betCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7902CE290EFDE600522E92;
+			productRefGroup = AB7902D8290EFDE600522E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7902D6290EFDE600522E92 /* betCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7902D5290EFDE600522E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7902E7290EFDE800522E92 /* LaunchScreen.storyboard in Resources */,
+				AB7902E4290EFDE800522E92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CBE5B8B1AB0EF6A701A02FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-betCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7902D3290EFDE600522E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7902EF290EFF9300522E92 /* NewBetView.swift in Sources */,
+				AB3D81EA2911225B00670B7A /* MainView.swift in Sources */,
+				AB3D81EF29114B9200670B7A /* HistoryCustomCell.swift in Sources */,
+				AB3D81F42911850C00670B7A /* MainCustomCell.swift in Sources */,
+				AB3D81F1291182A700670B7A /* UIColor+Extension.swift in Sources */,
+				AB7902DF290EFDE600522E92 /* NewBetViewController.swift in Sources */,
+				AB7902DB290EFDE600522E92 /* AppDelegate.swift in Sources */,
+				AB3D81E62911192400670B7A /* MainViewController.swift in Sources */,
+				AB3D81E02911163200670B7A /* TabBarViewController.swift in Sources */,
+				AB3D81E82911193200670B7A /* HistoryViewController.swift in Sources */,
+				AB3D81F62914153600670B7A /* CurrencyViewController.swift in Sources */,
+				AB5380842917E47D00FB2B23 /* NewView.swift in Sources */,
+				AB5380882918334100FB2B23 /* NewViewController.swift in Sources */,
+				AB3D81F8291415FE00670B7A /* CurrencyView.swift in Sources */,
+				AB3D81EC2911226C00670B7A /* HistoryView.swift in Sources */,
+				AB7902DD290EFDE600522E92 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB7902E5290EFDE800522E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7902E6290EFDE800522E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7902E9290EFDE800522E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB7902EA290EFDE800522E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7902EC290EFDE800522E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF350F9C1ABA2141DB0FEF9 /* Pods-betCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = betCalculator/SuportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.betCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7902ED290EFDE800522E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656BDB729EDFD840AC48890A /* Pods-betCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = betCalculator/SuportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.betCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7902D2290EFDE600522E92 /* Build configuration list for PBXProject "betCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7902E9290EFDE800522E92 /* Debug */,
+				AB7902EA290EFDE800522E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7902EB290EFDE800522E92 /* Build configuration list for PBXNativeTarget "betCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7902EC290EFDE800522E92 /* Debug */,
+				AB7902ED290EFDE800522E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7902CF290EFDE600522E92 /* Project object */;
+}

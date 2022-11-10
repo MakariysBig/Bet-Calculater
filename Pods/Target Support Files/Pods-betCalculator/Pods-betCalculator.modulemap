@@ -1,0 +1,6 @@
+module Pods_betCalculator {
+  umbrella header "Pods-betCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
